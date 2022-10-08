@@ -1,38 +1,38 @@
-.App {
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(
+    to left,
+    rgb(148, 252, 196) 0%,
+    rgb(166, 180, 226) 100%
+  );
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app-title {
+  margin: 40px auto 30px auto;
+  color: #8a0347;
+  font-size: 64px;
+  font-family: 'Bigelow Rules';
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.fallback {
+  border-radius: 8px;
+  background-color: white;
+  padding: 12px;
+  font-size: 1.2rem;
+  width: 160px;
+  height: 40px;
+  align-content: center;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.next-button {
+  padding: 16px;
+  width: 20%;
+  cursor: pointer;
+  margin: 32px auto 32px auto;
 }
